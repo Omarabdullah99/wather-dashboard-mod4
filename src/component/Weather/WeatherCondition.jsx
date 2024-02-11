@@ -12,7 +12,7 @@ export default function WeatherCondition() {
     wind,
     climate,
 } = weatherData;
-console.log(weatherData)
+// console.log(weatherData)
 
   return (
     <div>

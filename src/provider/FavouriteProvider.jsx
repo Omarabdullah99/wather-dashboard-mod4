@@ -3,6 +3,7 @@ import useLocalStorage from "../hooks/useLocalStorage";
 
 
 
+// eslint-disable-next-line react/prop-types
 const FavouriteProvider = ({ children }) => {
     const [favourites, setFavourites] = useLocalStorage("favourites", []);
 
