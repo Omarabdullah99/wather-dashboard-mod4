@@ -4,7 +4,7 @@ import WeatherCondition from "./WeatherCondition";
 import WeatherHeadline from "./WeatherHeadline";
 
 export default function WeatherBoard() {
-  const {weatherData,error,loading,}=useWeatherHook()
+  const {weatherData}=useWeatherHook()
 
   console.log("dashboard",weatherData)
   return (
