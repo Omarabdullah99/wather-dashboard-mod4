@@ -3,9 +3,9 @@ import WeatherBoard from "./component/Weather/WeatherBoard";
 
 export default function App() {
   return (
-    <div>
+    <div className="grid place-items-center h-screen mt-20">
       <Header />
-      <main className="my-[150px]">
+      <main>
         <section>
           <WeatherBoard />
         </section>
