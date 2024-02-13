@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { LocationContext } from "../context";
 
-
-// eslint-disable-next-line react/prop-types
 const LocationProvider = ({ children }) => {
     const [selectedLocation, setSelectedLocation] = useState({
         location: "",
